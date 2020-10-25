@@ -135,8 +135,7 @@ img {
   color: var(--accent-cl);
 }
 
-.title,
-.break {
+.title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
@@ -317,6 +316,11 @@ img {
 .up-contacts {
   margin-left: auto;
 }
+.title {
+  height: 120px;
+  width: 696px;
+  margin-left: 237px;
+}
 .big-button {
   display: block;
   text-align: center;
@@ -407,9 +411,11 @@ img {
 .styles-name {
   padding-top: 30px;
   padding-bottom: 10px;
+  margin: auto;
 }
 .name-prof {
   padding-bottom: 30px;
+  margin: auto;
 }
 .footer {
   padding-top: 60px;
