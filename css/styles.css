@@ -279,6 +279,7 @@ img {
 }
 
 .list,
+.list-menu,
 .list-nav,
 .list-app,
 .table-app {
@@ -467,7 +468,9 @@ img {
   padding-top: 20px;
   padding-bottom: 4px;
   padding-left: 24px;
+  margin: auto;
 }
 .app-name {
   padding-left: 24px;
+  margin: auto;
 }
