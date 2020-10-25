@@ -362,7 +362,6 @@ img {
 }
 
 .description-unit {
-  display: inline-flexbox;
   width: 270px;
   height: 101px;
 }
@@ -383,7 +382,6 @@ img {
   margin-bottom: 50px;
 }
 .photo-book {
-  padding-top: auto;
   padding-bottom: 94px;
   background-color: var(--pearl);
 }
