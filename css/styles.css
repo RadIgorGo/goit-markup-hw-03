@@ -101,6 +101,7 @@ img {
 }
 .bg-header {
   background-color: var(--white);
+  border-bottom: 1px solid #ececec;
 }
 .bg-hero,
 .bg-footer {
@@ -246,6 +247,7 @@ img {
 
 .address {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -433,7 +435,7 @@ img {
   padding-top: 20px;
 }
 .cl-link {
-  padding-top: 8px;
+  padding-top: 6px;
 }
 .table-color {
   color: var(--white);
@@ -466,11 +468,12 @@ img {
   background-color: var(--white);
 }
 .flex-element {
-  height: 404px;
+  box-sizing: border-box;
   width: 370px;
+  height: 368px;
   margin-bottom: 30px;
-
   background-color: var(--white);
+  border: 1px solid #eeeeee;
 }
 
 .project-name {
