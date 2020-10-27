@@ -399,9 +399,7 @@ img {
   display: flex;
   justify-content: space-between;
 }
-/* .image-unit + .image-unite {
-  padding-left: 30px;
-} */
+
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -468,12 +466,10 @@ img {
   background-color: var(--white);
 }
 .flex-element {
-  box-sizing: border-box;
   width: 370px;
-  height: 368px;
+  height: 404px;
   margin-bottom: 30px;
   background-color: var(--white);
-  border: 1px solid #eeeeee;
 }
 
 .project-name {
@@ -481,8 +477,13 @@ img {
   padding-bottom: 4px;
   padding-left: 24px;
   margin: auto;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .app-name {
   padding-left: 24px;
   margin: auto;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
