@@ -327,9 +327,10 @@ img {
   margin-left: auto;
 }
 .title {
-  height: 120px;
+  height: auto;
   width: 696px;
-  margin-left: 237px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .big-button {
   display: block;
@@ -466,10 +467,11 @@ img {
   background-color: var(--white);
 }
 .flex-element {
-  width: 370px;
-  height: 404px;
+  box-sizing: border-box;
   margin-bottom: 30px;
+  padding-bottom: 20px;
   background-color: var(--white);
+  border: 1px solid #eeeeee;
 }
 
 .project-name {
@@ -477,13 +479,8 @@ img {
   padding-bottom: 4px;
   padding-left: 24px;
   margin: auto;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
 }
 .app-name {
   padding-left: 24px;
   margin: auto;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
 }
